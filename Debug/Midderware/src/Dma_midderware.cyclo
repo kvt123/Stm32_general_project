@@ -1,0 +1,2 @@
+../Midderware/src/Dma_midderware.c:7:6:LowLevel_DMAConfig	2
+../Midderware/src/Dma_midderware.c:28:6:DMA_I2C_Init	1

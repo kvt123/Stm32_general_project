@@ -1,0 +1,6 @@
+../Midderware/src/I2c_dma_midderware.c:14:13:I2C_DMA_LowLevel_Init	1
+../Midderware/src/I2c_dma_midderware.c:36:6:I2c_Midderware_Init	1
+../Midderware/src/I2c_dma_midderware.c:62:6:I2C_Read_Buffer	16
+../Midderware/src/I2c_dma_midderware.c:145:6:I2C_write_Buffer	12
+../Midderware/src/I2c_dma_midderware.c:219:6:I2C_write_LCD	7
+../Midderware/src/I2c_dma_midderware.c:266:6:TIMEOUT_UserCallback	1

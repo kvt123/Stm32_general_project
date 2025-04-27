@@ -1,0 +1,9 @@
+../Midderware/src/I2c_Lcd.c:20:6:lcd_send_cmd	24	static
+../Midderware/src/I2c_Lcd.c:42:6:lcd_send_data	24	static
+../Midderware/src/I2c_Lcd.c:64:6:lcd_clear	16	static
+../Midderware/src/I2c_Lcd.c:84:6:lcd_gotoxy	24	static
+../Midderware/src/I2c_Lcd.c:105:6:lcd_init	8	static
+../Midderware/src/I2c_Lcd.c:136:6:lcd_puts	16	static
+../Midderware/src/I2c_Lcd.c:153:6:lcd_putchar	16	static
+../Midderware/src/I2c_Lcd.c:160:6:Delay	16	static
+../Midderware/src/I2c_Lcd.c:172:6:TimingDelay_Decrement	4	static

@@ -1,0 +1,5 @@
+../Drivers/src/misc.c:95:6:NVIC_PriorityGroupConfig	1
+../Drivers/src/misc.c:110:6:NVIC_Init	2
+../Drivers/src/misc.c:151:6:NVIC_SetVectorTable	1
+../Drivers/src/misc.c:168:6:NVIC_SystemLPConfig	2
+../Drivers/src/misc.c:190:6:SysTick_CLKSourceConfig	2

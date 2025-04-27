@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "dma_midderware.h": "c",
+        "i2c_dma_midderware.h": "c",
+        "stm32f10x_i2c.h": "c",
+        "stm32f10x_dma.h": "c",
+        "gpio_midderware.h": "c",
+        "stm32f10x_gpio.h": "c",
+        "string.h": "c"
+    }
+}

@@ -1,0 +1,4 @@
+../Inc/core_cm3.h:1586:22:NVIC_SetPriority	16	static
+../Inc/core_cm3.h:1694:26:SysTick_Config	16	static
+../App/LCD/app.c:3:6:Init_LCD	8	static
+../App/LCD/app.c:14:6:display	16	static

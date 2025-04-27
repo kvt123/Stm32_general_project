@@ -1,0 +1,4 @@
+../Inc/core_cm3.h:1586:22:NVIC_SetPriority	2
+../Inc/core_cm3.h:1694:26:SysTick_Config	2
+../App/LCD/app.c:3:6:Init_LCD	2
+../App/LCD/app.c:14:6:display	1
