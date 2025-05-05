@@ -30,7 +30,7 @@ void lcd_send_cmd(char cmd)
     data_t[2] = lower_nibble | 0x0C;  // en=1, rs=0
     data_t[3] = lower_nibble | 0x08;  // en=0, rs=0
 
-    I2C_write_LCD(data_t, 4);
+    I2C_write(LCD_I2C ,I2C_LCD_ADDRESS7, data_t, 4);
 }
 
 /**
@@ -52,7 +52,7 @@ void lcd_send_data(char data)
     data_t[2] = lower_nibble | 0x0D;  // en=1, rs=1
     data_t[3] = lower_nibble | 0x09;  // en=0, rs=1
 
-    I2C_write_LCD(data_t, 4);
+    I2C_write(LCD_I2C ,I2C_LCD_ADDRESS7, data_t, 4);
     Delay(1);
 }
 

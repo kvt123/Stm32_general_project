@@ -4,7 +4,7 @@
 
 DMA_InitTypeDef   DMA_InitStructure; 
 
-void LowLevel_DMAConfig(uint32_t pBuffer, uint32_t BufferSize, uint32_t Direction)
+void LowLevel_DMAConfig(uint32_t* pBuffer, uint32_t BufferSize, uint32_t Direction)
 { 
   /* Initialize the DMA with the new parameters */
   if (Direction == DIRECTION_TX)

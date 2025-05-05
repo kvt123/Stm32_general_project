@@ -23,6 +23,7 @@ C_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 App/LCD \
+App/RTC \
 Drivers/src \
 Interrupt \
 Midderware/src \

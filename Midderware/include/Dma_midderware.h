@@ -11,7 +11,7 @@
 
 #define I2C_DMA                      DMA1   
 #define I2C_DMA_CHANNEL_TX           DMA1_Channel6
-#define I2C_DMA_CHANNEL_RX           DMA1_Channel7 
+#define I2C_DMA_CHANNEL_RX           DMA1_Channel7
 #define I2C_DMA_FLAG_TX_TC           DMA1_IT_TC6   
 #define I2C_DMA_FLAG_TX_GL           DMA1_IT_GL6 
 #define I2C_DMA_FLAG_RX_TC           DMA1_IT_TC7 
@@ -22,7 +22,7 @@
 #define DIRECTION_TX                 0
 #define DIRECTION_RX                 1  
 
-void LowLevel_DMAConfig(uint32_t pBuffer, uint32_t BufferSize, uint32_t Direction);
+void LowLevel_DMAConfig(uint32_t* pBuffer, uint32_t BufferSize, uint32_t Direction);
 void DMA_I2C_Init(void);
 
 
