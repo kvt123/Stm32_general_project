@@ -13,6 +13,6 @@ void Init_LCD()
 }
 void display(char Buffer[])
 {
-  lcd_gotoxy(1, 1);
+  lcd_gotoxy(0, 0);
   lcd_puts(Buffer);
 }

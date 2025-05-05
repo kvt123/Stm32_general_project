@@ -1,1 +1,2 @@
-../Midderware/src/Gpio_midderware.c:3:6:GPIO_I2C_Init	16	static
+../Midderware/src/Gpio_midderware.c:5:6:GPIO_I2C_Init	16	static
+../Midderware/src/Gpio_midderware.c:26:6:I2C_BusRecovery	16	static

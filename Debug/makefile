@@ -14,6 +14,7 @@ RM := rm -rf
 -include Midderware/src/subdir.mk
 -include Interrupt/subdir.mk
 -include Drivers/src/subdir.mk
+-include App/RTC/subdir.mk
 -include App/LCD/subdir.mk
 -include objects.mk
 

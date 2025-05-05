@@ -17,10 +17,28 @@
  */
 
 #include <stdint.h>
+#include "app.h"
+#include "RTC.h"
+
+
+extern char buffer[100];
+
+extern char buffer1[100];
+
+RTC_InitDefaultTypeDef DefaultValue = {27, 4, 2025, 0, 23, 57, 59};
+
 
 int main(void)
 {
     Init_LCD();
-    display("khanh tran van");
-    while(1);
+    RTC_Init(&DefaultValue);
+    while(1)
+    {
+        GetValueDisplay_RTC();
+        Delay(3);
+        lcd_gotoxy(0, 0);
+        lcd_puts(buffer);
+        lcd_gotoxy(0, 1);
+        lcd_puts(buffer1);
+    }
 }

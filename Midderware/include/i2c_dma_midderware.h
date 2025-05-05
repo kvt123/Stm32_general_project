@@ -24,12 +24,14 @@
   */  
 
  #define LCD_I2C             I2C1
+ #define RTC_I2C             I2C1
 
 #define I2C_TIMEOUT         ((uint32_t)(100000))
 
 
-#define I2C_SPEED               200000
-#define I2C_SLAVE_ADDRESS7      0x4E
+#define I2C_SPEED               100000
+#define I2C_LCD_ADDRESS7        0x27
+#define I2C_SLAVE_ADDRESS7        0x4E
 
 #define STATUS_OK               0
 #define STATUS_FALSE            1

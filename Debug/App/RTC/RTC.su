@@ -1,0 +1,2 @@
+../App/RTC/RTC.c:20:6:RTC_Init	16	static
+../App/RTC/RTC.c:35:6:GetValueDisplay_RTC	32	static
